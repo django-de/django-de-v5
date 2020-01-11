@@ -1,0 +1,365 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Outlines 9 0 R /PageLabels 10 0 R /PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author () /CreationDate (D:20180204140448-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20180204140448-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Deutscher Django-Verein e.V.) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 4270
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 78.29843 0 Td (Deutscher Django-Verein e.V.) Tj T* -78.29843 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 145.5634 0 Td (Jahresbericht 2014) Tj T* -145.5634 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 23 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F1 10 Tf 0 0 0 rg (W\344hrend der Chemnitzer Linux-Tage am 15. und 16. M\344rz 2014 stellt der Deutsche) Tj T* (Django-Verein e.V. sich an einem Gemeinschaftsstand mit anderen Python-Projekten vor.) Tj T* (Desweiteren wurde ein Workshop angeboten:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 17 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 14 cm
+Q
+q
+1 0 0 1 20 14 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Tutorial "Django: Schnell performante WebApplikationen entwicklen", 4 Stunden) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+Q
+q
+1 0 0 1 62.69291 533.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 71 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32 Tm /F1 10 Tf 14 TL (Vom 08. bis 10. Mai 2014 war der Deutsche Django-Verein e.V. auf dem LinuxTag in der) Tj T* (STATION Berlin an einem Gemeinschaftsstand verschiedener Python-Projekte pr\344sent.) Tj T* (Desweiteren wurden verschiedene Workshops und Vortr\344ge gehalten:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 37 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 34 cm
+Q
+q
+1 0 0 1 20 34 cm
+Q
+q
+1 0 0 1 20 20 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Vortrag "Virtuelle Maschinen mit Packer, Vagrant und Salt bauen", 30 Minuten) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 14 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Vortrag "Sichere Web-Applikationen am Beispiel von Django", 1 Stunde) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 527.0236 cm
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 23 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32 Tm /F1 10 Tf 14 TL (Der Deutsche Django-Verein e.V. unterst\374tzte die Initaitive "Django Girls" auf der europ\344ischen) Tj T* (Konferenz f\374r die Python Community "EuroPython" vom 21. bis 27. Juli 2014 in Berlin sowohl) Tj T* (personell als auch finanziell. Au\337erdem wurde ein Vortrag gehalten:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 17 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 14 cm
+Q
+q
+1 0 0 1 20 14 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Vortrag "Writing multi-language documentation using Sphinx", 30 Minuten) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Informationsstand auf dem "31. Chaos Communication Congress" des Chaos Computer Clubs) Tj T* (vom 27. bis 30. Dezember 2014 im CCH in Hamburg.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 425.0236 cm
+Q
+ 
+endstream
+endobj
+9 0 obj
+<<
+/Count 0 /Type /Outlines
+>>
+endobj
+10 0 obj
+<<
+/Nums [ 0 11 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000073 00000 n 
+0000000114 00000 n 
+0000000223 00000 n 
+0000000331 00000 n 
+0000000534 00000 n 
+0000000637 00000 n 
+0000000922 00000 n 
+0000000981 00000 n 
+0000005302 00000 n 
+0000005348 00000 n 
+0000005389 00000 n 
+trailer
+<<
+/ID 
+[<48c29c761639e3de722ea884f161667d><48c29c761639e3de722ea884f161667d>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 12
+>>
+startxref
+5423
+%%EOF

@@ -1,0 +1,372 @@
+$font-family: "Roboto", sans-serif;
+$font-family-titles: "Roboto Condensed", sans-serif;
+
+$text-color: #5c6873;
+$link-color: #5b9bd1;
+$link-hover-color: #32c5d2;
+$django-green: #43b78b;
+$logo-green: #0b4a32;
+
+$container-width: 720px;
+
+body {
+  background-color: white;
+  color: $text-color;
+
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-family-titles;
+}
+
+a:link,
+a:visited {
+  color: $link-color;
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: $link-hover-color;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.padded {
+  padding: 3rem 1rem;
+}
+
+/* ------------------------------------------------------
+  Header
+------------------------------------------------------ */
+
+$nav-color: #3a3f45;
+
+.page-header {
+  max-width: $container-width;
+  margin: 2rem auto;
+
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: $font-family-titles;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  h1 {
+    text-align: center;
+
+    svg {
+      max-width: 350px;
+      fill: $logo-green;
+      transition: all 0.2s;
+
+      &:hover {
+        fill: lighten($logo-green, 20%);
+      }
+    }
+
+    strong {
+      display: none;
+    }
+  }
+
+  ul {
+    display: grid;
+
+    grid-gap: 2rem;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    list-style: none;
+    margin: 0;
+    padding: 1rem 2rem 0 2rem;
+
+    a {
+      transition: all 0.2s;
+      color: $nav-color;
+      text-decoration: none;
+    }
+
+    a.active {
+      border-bottom: 2px solid lighten($nav-color, 50%);
+    }
+
+    a:hover,
+    a:active {
+      color: $link-hover-color;
+    }
+  }
+}
+
+/* ------------------------------------------------------
+  Footer
+------------------------------------------------------ */
+
+$footer-bg-color: #2e3336;
+$footer-text-color: #7e8c93;
+$footer-more-color: #566065;
+
+.page-footer {
+  padding: 3rem 1rem;
+  background-color: $footer-bg-color;
+}
+
+.page-footer > section {
+  line-height: 25px;
+  color: $footer-text-color;
+
+  max-width: $container-width;
+  margin: 0 auto;
+
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "logo"
+    "nav"
+    "social"
+    "contact";
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+      "logo logo   logo"
+      "nav  social contact";
+  }
+
+  .logo {
+    grid-area: logo;
+
+    svg {
+      fill: $footer-more-color;
+      max-width: 250px;
+    }
+
+    strong {
+      display: none;
+    }
+  }
+
+  .site-nav {
+    grid-area: nav;
+  }
+
+  .social-nav {
+    grid-area: social;
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  a:link,
+  a:visited {
+    color: $django-green;
+    text-decoration: none;
+  }
+
+  .site-nav,
+  .social-nav {
+    svg {
+      fill: $footer-more-color;
+      width: 16px;
+      margin-left: -5px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    a:link,
+    a:visited {
+      display: block;
+      margin: 0 0 0.5rem 0;
+      color: $footer-more-color;
+      border-color: $footer-more-color;
+    }
+
+    a:hover,
+    a:active {
+      color: $django-green;
+      background-color: $footer-bg-color;
+      border-color: $django-green;
+
+      svg {
+        fill: $django-green;
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------------
+  Features
+------------------------------------------------------ */
+
+a.more {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.2em 0.8em;
+  font-weight: 300;
+  color: $django-green;
+  border: 1px solid $django-green;
+
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $django-green;
+    color: white;
+  }
+}
+
+.link-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+}
+
+.teaser {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+
+  h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+    color: #43b78b;
+    max-width: $container-width * 0.8;
+    font-family: $font-family;
+  }
+}
+
+.content-box {
+  padding: 3rem 1rem;
+
+  &.alternate {
+    background-color: #f7f7f7;
+  }
+
+  &.page-title {
+    background-color: #f7fafb;
+  }
+
+  // Header
+  & > header,
+  & > section {
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    padding: 0 0 3rem 0;
+  }
+
+  header h2,
+  header h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3f444a;
+    display: inline-block;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: calc(50% - 20px);
+      display: inline-block;
+      height: 1em;
+      width: 40px;
+      border-bottom: 3px solid #43b78b;
+      margin-top: 2rem;
+    }
+  }
+
+  // Content
+  & > section {
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.appointment {
+  margin-bottom: 3rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+  }
+
+  .date {
+    color: $django-green;
+    margin-right: 0.6rem;
+  }
+
+  .date-icon {
+    fill: $django-green;
+    margin-right: 0.5rem;
+    width: 24px;
+    vertical-align: middle;
+  }
+
+  .more {
+    margin-top: 1rem;
+  }
+
+  .gatsby-resp-image-wrapper {
+    width: 160px;
+    display: inline-block !important;
+    margin: 0 0.5rem 0.5rem 0;
+  }
+}
+
+.image-grid {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  p {
+    margin: 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    line-height: 1.4rem;
+    hyphens: auto;
+
+    .more {
+      display: inline-block;
+      border-color: white;
+      color: white;
+      margin-top: 0.5rem;
+
+      &:hover,
+      &:active {
+        background-color: white;
+        color: $text-color;
+      }
+    }
+  }
+}

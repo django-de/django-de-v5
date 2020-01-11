@@ -1,0 +1,341 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+5 0 obj
+<< /Outlines 9 0 R /PageLabels 10 0 R /PageMode /UseNone /Pages 7 0 R /Type /Catalog >>
+endobj
+6 0 obj
+<< /Author () /CreationDate (D:20150113193629-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Deutscher Django-Verein e.V.) >>
+endobj
+7 0 obj
+<< /Count 1 /Kids [ 4 0 R ] /Type /Pages >>
+endobj
+8 0 obj
+<< /Length 5302 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 78.29843 0 Td (Deutscher Django-Verein e.V.) Tj T* -78.29843 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 145.5634 0 Td (Jahresbericht 2011) Tj T* -145.5634 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 25 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F1 10 Tf 0 0 0 rg (Auf den Chemnitzer Linux-Tagen am 19. und 20. M\344rz 2011 bot der Deutsche Django-Verein) Tj T* (e.V. den Workshop "RESTful Web Service mit Django" an. Au\337erdem wurde Django an beiden) Tj T* (Tagen an einem Gemeinschaftsstand mit anderen Python-Projekten vorgestellt.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 647.0236 cm
+Q
+q
+1 0 0 1 62.69291 619.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Am 22. M\344rz wurde Django im Rahmen eines Vortrags bei der Python User Group M\374nchen) Tj T* (vorgestellt.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 613.0236 cm
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Beim LinuxTag auf dem Berliner Messegel\344nde wurde Django an einem Gemeinschaftsstand) Tj T* (verschiedener Python-Projekte vom 11. bis 14. Mai 2011 vorgestellt.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 551.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Der Deutsche Django-Verein e.V. unterst\374tze die DjangoCon Europe 2011 in Amsterdam mit) Tj T* (einem Sponsoring i.H.v 1.000 EUR.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+Q
+q
+1 0 0 1 62.69291 389.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 139 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 97 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46 Tm /F1 10 Tf 14 TL (Vom 4. bis 9. Oktober 2011 fand die erste deutschsprachige Python Konferenz PyCon DE in) Tj T* (Leipzig statt. Der Deutsche Django-Verein e.V. unterst\374tzte die Konferenz durch das Sponsoring) Tj T* (von Lanyards \(688,00 EUR\) sowie einem Extrasponsoring i.H.v. 250,00 EUR. Au\337erdem) Tj T* (wurden im Rahmen der Konferenz folgende Aktivit\344ten angeboten:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 91 cm
+Q
+q
+1 0 0 1 23 -3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 88 cm
+Q
+q
+1 0 0 1 20 88 cm
+Q
+q
+1 0 0 1 20 74 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Tutorial "Django: Schnell performante Web-Applikationen entwickeln") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 68 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Tutorial "Django-CMS - von der ersten Seite bis zum eigenen Plugin") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 34 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (Vortrag "LFS - Ein Online-Shop basierend auf Python, Django & jQuery") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 28 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Au\337erdem unterst\374tzen Mitglieder des Deutschen Django-Vereins e.V. das) Tj T* (Konferenzteam beim Aufbau der Website auf Basis von Django.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 383.0236 cm
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46 Tm /F1 10 Tf 14 TL (Vom 27. bis 30. Dezember 2011 war der Deutsche Django-Verein e.V. bei der internationalen) Tj T* (Konferenz "Chaos Communication Congress 2011" mit einem eigenen Tisch im Hackcenter) Tj T* (vertreten. Im Vordergrund stand die Vorstellung von Django sowie der Austausch unter den) Tj T* (anwesenden Django Entwicklern.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+Q
+ 
+endstream
+endobj
+9 0 obj
+<< /Count 0 /Type /Outlines >>
+endobj
+10 0 obj
+<< /Nums [ 0 11 0 R ] >>
+endobj
+11 0 obj
+<< /S /D /St 1 >>
+endobj
+xref
+0 12
+0000000000 65535 f
+0000000075 00000 n
+0000000119 00000 n
+0000000231 00000 n
+0000000342 00000 n
+0000000549 00000 n
+0000000655 00000 n
+0000000893 00000 n
+0000000955 00000 n
+0000006313 00000 n
+0000006362 00000 n
+0000006406 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\310@\327\207&S\342\024\341\275\027h\341\3465K) (\310@\327\207&S\342\024\341\275\027h\341\3465K)]
+ /Info 6 0 R /Root 5 0 R /Size 12 >>
+startxref
+6443
+%%EOF
