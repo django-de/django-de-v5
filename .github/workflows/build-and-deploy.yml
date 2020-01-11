@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - live
+
+name: Build Gatsby and deploy to the gh-pages branch.
+
+jobs:
+  build_gatsby:
+    name: build
+    runs-on: ubuntu-latest
+    env:
+      GATSBY_TELEMETRY_DISABLED: 1
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: npm install
+        run: npm ci
+
+      - name: gatsby build
+        run: npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public

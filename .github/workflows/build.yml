@@ -1,0 +1,19 @@
+on: [push, pull_request]
+
+name: Build Gatsby.
+
+jobs:
+  build_gatsby:
+    name: build
+    runs-on: ubuntu-latest
+    env:
+      GATSBY_TELEMETRY_DISABLED: 1
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: npm install
+        run: npm ci
+
+      - name: gatsby build
+        run: npm run build
