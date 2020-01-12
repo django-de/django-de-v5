@@ -19,7 +19,7 @@ class Page extends React.Component {
           </header>
         </div>
 
-        <div className="content-box left-aligned">
+        <div className="content-box">
           <header>
             <h3>Django Girls Tutorial</h3>
           </header>
@@ -39,7 +39,7 @@ class Page extends React.Component {
           </section>
         </div>
 
-        <div className="content-box left-aligned">
+        <div className="content-box">
           <header>
             <h3>Django-Snippets</h3>
           </header>
@@ -58,7 +58,7 @@ class Page extends React.Component {
           </section>
         </div>
 
-        <div className="content-box left-aligned">
+        <div className="content-box">
           <header>
             <h3>Django Project Tutorial</h3>
           </header>
@@ -81,7 +81,7 @@ class Page extends React.Component {
           </section>
         </div>
 
-        <div className="content-box left-aligned">
+        <div className="content-box">
           <header>
             <h3>django-marcador</h3>
           </header>
