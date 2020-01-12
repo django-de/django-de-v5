@@ -1,4 +1,8 @@
-on: [push, pull_request]
+on:
+  push:
+    branches-ignore:
+      - "live"
+  pull_request:
 
 name: Build Gatsby.
 
