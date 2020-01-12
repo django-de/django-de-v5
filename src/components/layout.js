@@ -1,7 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Logo from "../../content/Assets/Logo.svg"
-
 import GithubIcon from "../../content/Assets/Icons/github.svg"
 import SlackIcon from "../../content/Assets/Icons/slack.svg"
 import TwitterIcon from "../../content/Assets/Icons/twitter.svg"
@@ -96,12 +96,9 @@ class Layout extends React.Component {
                 </a>
               </li>
               <li>
-                <a
-                  className="more"
-                  href="https://join.slack.com/t/djangoev/shared_invite/enQtNzkwMDEyMjAzOTQwLWM0OGI5NzA5ZDRjMzgxNTVmN2Y2MjYzOGYzZWIzN2Y4YTg4YWMzM2JiZGZiNDVmOTE1YWU3ZGM1Yjc0MzlhMjg"
-                >
+                <Link to="/slack/" className="more">
                   <SlackIcon /> Slack
-                </a>
+                </Link>
               </li>
             </ul>
 
