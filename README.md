@@ -1,4 +1,4 @@
-# Django Verein e.V. Websie
+# Django Verein e.V. Website
 
 The Gatsby powered website of the German Django association.
 
