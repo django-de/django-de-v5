@@ -84,7 +84,7 @@ class Page extends React.Component {
             </ul>
             <p>
               Kontaktiere uns am besten per{" "}
-              <a href="mailto:kontakt@djangoverein.de">E-mail</a>, wir freuen
+              <a href="mailto:kontakt@django-verein.de">E-mail</a>, wir freuen
               uns darauf, dich zu unterstützen!
             </p>
           </section>
