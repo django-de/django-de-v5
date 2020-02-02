@@ -1,6 +1,5 @@
-import React from "react"
-
 import Layout from "../components/layout"
+import React from "react"
 import SEO from "../components/seo"
 
 const SlackURL = `https://join.slack.com/t/djangoev/shared_invite/enQtNzkwMDEyMjAzOTQwLWM0OGI5NzA5ZDRjMzgxNTVmN2Y2MjYzOGYzZWIzN2Y4YTg4YWMzM2JiZGZiNDVmOTE1YWU3ZGM1Yjc0MzlhMjg`

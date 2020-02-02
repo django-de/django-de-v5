@@ -1,14 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
+import "./style.scss"
 
-import Logo from "../../content/Assets/Logo.svg"
 import GithubIcon from "../../content/Assets/Icons/github.svg"
+import { Link } from "gatsby"
+import Logo from "../../content/Assets/Logo.svg"
+import React from "react"
 import SlackIcon from "../../content/Assets/Icons/slack.svg"
 import TwitterIcon from "../../content/Assets/Icons/twitter.svg"
-
 import classNames from "classnames"
-
-import "./style.scss"
 
 class Layout extends React.Component {
   render() {
@@ -25,29 +23,29 @@ class Layout extends React.Component {
           </h1>
           <ul>
             <li>
-              <a
+              <Link
                 className={location === "/verein/" ? "active" : null}
-                href="/verein/"
+                to="/verein/"
               >
                 Verein &amp; Mitgliedschaft
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 className={location === "/termine/" ? "active" : null}
                 href="/termine/"
               >
                 Termine &amp; Events
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className={location === "/hilfe/" ? "active" : null}
                 href="/hilfe/"
               >
                 Hilfe
-              </a>
+              </Link>
             </li>
           </ul>
         </header>
@@ -63,24 +61,24 @@ class Layout extends React.Component {
 
             <ul className="site-nav">
               <li>
-                <a className="more" href="/">
+                <Link className="more" href="/">
                   Startseite
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="more" href="/verein">
+                <Link className="more" href="/verein">
                   Verein &amp; Mitgliedschaft
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="more" href="/termine">
+                <Link className="more" href="/termine">
                   Termine &amp; Events
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="more" href="/hilfe">
+                <Link className="more" href="/hilfe">
                   Hilfe
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -128,7 +126,7 @@ class Layout extends React.Component {
                 USt-ID: DE269932358
               </p>
               <p>
-                <a href="/datenschutz/">Datenschutzerklärung</a>
+                <Link to="/datenschutz/">Datenschutzerklärung</Link>
               </p>
             </div>
           </section>
