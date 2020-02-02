@@ -16,10 +16,10 @@ class Layout extends React.Component {
       <>
         <header className="page-header">
           <h1>
-            <a className="logo" aria-label="Zurück zur Startseite" href="/">
+            <Link className="logo" aria-label="Zurück zur Startseite" to="/">
               <Logo />
               <strong>Deutscher Django-Verein e.V.</strong>
-            </a>
+            </Link>
           </h1>
           <ul>
             <li>
