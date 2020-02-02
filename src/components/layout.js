@@ -34,7 +34,7 @@ class Layout extends React.Component {
             <li>
               <Link
                 className={location === "/termine/" ? "active" : null}
-                href="/termine/"
+                to="/termine/"
               >
                 Termine &amp; Events
               </Link>
@@ -42,7 +42,7 @@ class Layout extends React.Component {
             <li>
               <Link
                 className={location === "/hilfe/" ? "active" : null}
-                href="/hilfe/"
+                to="/hilfe/"
               >
                 Hilfe
               </Link>
@@ -61,22 +61,22 @@ class Layout extends React.Component {
 
             <ul className="site-nav">
               <li>
-                <Link className="more" href="/">
+                <Link className="more" to="/">
                   Startseite
                 </Link>
               </li>
               <li>
-                <Link className="more" href="/verein">
+                <Link className="more" to="/verein">
                   Verein &amp; Mitgliedschaft
                 </Link>
               </li>
               <li>
-                <Link className="more" href="/termine">
+                <Link className="more" to="/termine">
                   Termine &amp; Events
                 </Link>
               </li>
               <li>
-                <Link className="more" href="/hilfe">
+                <Link className="more" to="/hilfe">
                   Hilfe
                 </Link>
               </li>
