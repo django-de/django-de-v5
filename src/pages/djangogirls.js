@@ -1,9 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Img from "gatsby-image"
+import Layout from "../components/layout"
+import React from "react"
+import SEO from "../components/seo"
+import { graphql } from "gatsby"
 
 class Page extends React.Component {
   render() {
@@ -84,8 +83,8 @@ class Page extends React.Component {
             </ul>
             <p>
               Kontaktiere uns am besten per{" "}
-              <a href="mailto:kontakt@django-verein.de">E-mail</a>, wir freuen
-              uns darauf, dich zu unterstützen!
+              <a href="mailto:kontakt@django-de.org">E-mail</a>, wir freuen uns
+              darauf, dich zu unterstützen!
             </p>
           </section>
         </div>
