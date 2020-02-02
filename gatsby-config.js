@@ -82,11 +82,12 @@ module.exports = {
         postCssPlugins: [postCssPresetEnv({ stage: 0 })],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-purgecss`,
-    //   options: {
-    //     printRejected: true,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+      },
+    },
+    `gatsby-plugin-no-sourcemaps`,
   ],
 }

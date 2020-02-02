@@ -66,17 +66,17 @@ class Layout extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link className="more" to="/verein">
+                <Link className="more" to="/verein/">
                   Verein &amp; Mitgliedschaft
                 </Link>
               </li>
               <li>
-                <Link className="more" to="/termine">
+                <Link className="more" to="/termine/">
                   Termine &amp; Events
                 </Link>
               </li>
               <li>
-                <Link className="more" to="/hilfe">
+                <Link className="more" to="/hilfe/">
                   Hilfe
                 </Link>
               </li>

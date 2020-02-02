@@ -1,9 +1,9 @@
-import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 import Img from "gatsby-image"
+import Layout from "../components/layout"
+import React from "react"
+import SEO from "../components/seo"
 
 class Page extends React.Component {
   render() {
@@ -73,14 +73,14 @@ class Page extends React.Component {
               <p style={{ backgroundColor: "#e7505b" }}>
                 Wir betreuen den #django-de IRC Chat und Djangosnippets.
                 <br />
-                <Link className="more" to="/hilfe">
+                <Link className="more" to="/hilfe/">
                   Hilfe
                 </Link>
               </p>
               <p style={{ backgroundColor: "#57bfe1" }}>
                 Wir unterstützen euch bei der Durchführung von User Groups und
                 Events. Organisatorisch und finanziell. <br />
-                <Link className="more" to="/djangogirls">
+                <Link className="more" to="/djangogirls/">
                   Django Girls Workshop
                 </Link>
               </p>
