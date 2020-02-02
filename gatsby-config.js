@@ -86,6 +86,7 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
+        whitelist: ["appointment", "gatsby-resp-image-wrapper"],
       },
     },
     `gatsby-plugin-no-sourcemaps`,
