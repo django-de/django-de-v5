@@ -1,6 +1,6 @@
 const postCssPresetEnv = require(`postcss-preset-env`)
 
-const siteUrl = `https://django-verein.de/`
+const siteUrl = `https://www.django-verein.de/`
 
 module.exports = {
   siteMetadata: {
