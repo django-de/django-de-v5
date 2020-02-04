@@ -13,10 +13,18 @@ class RedirectPage extends React.Component {
     return (
       <Layout location="/slack/">
         <SEO title="Slack" />
-        <p>
-          Du wirst in wenigen Sekunden zu Slack weitergeleitet. Sollte das nicht
-          funktionieren, probier bitte <a href={SlackURL}>diesen Link</a>.
-        </p>
+        <div className="content-box alternate left-aligned">
+          <header>
+            <h2>Slack Channel</h2>
+          </header>
+          <section>
+            <p>
+              Du wirst in wenigen Sekunden zu Slack weitergeleitet. Sollte das
+              nicht funktionieren, probier bitte{" "}
+              <a href={SlackURL}>diesen Link</a>.
+            </p>
+          </section>
+        </div>
       </Layout>
     )
   }
