@@ -1,5 +1,7 @@
 const postCssPresetEnv = require(`postcss-preset-env`)
 
+const siteUrl = `https://django-verein.de/`
+
 module.exports = {
   siteMetadata: {
     title: `Deutscher Django-Verein e.V.`,
@@ -8,7 +10,7 @@ module.exports = {
       deutschsprachigen Raum weiter bekannt zu machen und um eine zentrale
       Anlaufstelle für Entwickler und Benutzer von Django-basierter Software
       zu bieten.`,
-    siteUrl: `https://django-verein.de/`,
+    siteUrl: siteUrl,
   },
   plugins: [
     {
@@ -87,6 +89,12 @@ module.exports = {
       options: {
         printRejected: true,
         whitelist: ["appointment", "gatsby-resp-image-wrapper"],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: siteUrl,
       },
     },
     `gatsby-plugin-no-sourcemaps`,

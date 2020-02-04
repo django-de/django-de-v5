@@ -13,6 +13,7 @@
     "classnames": "^2.2.6",
     "gatsby": "^2.18.21",
     "gatsby-image": "^2.2.38",
+    "gatsby-plugin-canonical-urls": "^2.1.20",
     "gatsby-plugin-feed": "^2.3.26",
     "gatsby-plugin-manifest": "^2.2.37",
     "gatsby-plugin-no-sourcemaps": "^2.1.2",
