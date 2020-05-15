@@ -88,7 +88,7 @@ class Page extends React.Component {
             >
               Wichtig: Corona-bedingt werden Meetups möglicherweise ausgesetzt
               oder werden online durchgeführt. Bitte informiere dich beim
-              Veranstalter ob und wie einzelne Events stattfinden.
+              Veranstalter, ob und wie einzelne Events stattfinden.
             </p>
             {data.Wiederkehrend.edges.map(node => this.Eintrag(node))}
           </section>
