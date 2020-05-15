@@ -1,10 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-
+import React from "react"
 import RepeatIcon from "../../content/Assets/Icons/repeat.svg"
+import SEO from "../components/seo"
+import { graphql } from "gatsby"
 
 class Page extends React.Component {
   Eintrag(node) {
@@ -80,6 +78,18 @@ class Page extends React.Component {
             <h2>Wiederkehrende Termine</h2>
           </header>
           <section>
+            <p
+              style={{
+                margin: ".5em 0 2em 0",
+                padding: "1em 3em",
+                textAlign: "center",
+                backgroundColor: "#f8f8f8",
+              }}
+            >
+              Wichtig: Corona-bedingt werden Meetups möglicherweise ausgesetzt
+              oder werden online durchgeführt. Bitte informiere dich beim
+              Veranstalter ob und wie einzelne Events stattfinden.
+            </p>
             {data.Wiederkehrend.edges.map(node => this.Eintrag(node))}
           </section>
         </div>
