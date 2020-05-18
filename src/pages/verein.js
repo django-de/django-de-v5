@@ -1,8 +1,7 @@
-import React from "react"
-import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
+import React from "react"
 import SEO from "../components/seo"
+import { graphql } from "gatsby"
 
 class Page extends React.Component {
   render() {
@@ -115,7 +114,7 @@ export const query = graphql`
     }
 
     Taetigkeitsberichte: allFile(
-      filter: { absolutePath: { glob: "**/Assets/Tätigkeitsberichte/*.pdf" } }
+      filter: { absolutePath: { glob: "**/Tätigkeitsberichte/*.pdf" } }
       sort: { fields: name, order: ASC }
     ) {
       edges {
