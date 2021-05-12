@@ -33,7 +33,7 @@
     "gatsby-transformer-sharp": "^2.5.2",
     "modern-css-reset": "^1.1.0",
     "node-sass": "^4.14.1",
-    "postcss": "^7.0.30",
+    "postcss": "^8.2.10",
     "postcss-preset-env": "^6.7.0",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
