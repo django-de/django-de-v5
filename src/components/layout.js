@@ -104,7 +104,7 @@ class Layout extends React.Component {
               <p>
                 Deutscher Django-Verein e. V.
                 <br />
-                Kutschbachweg 3
+                Engertstr. 18
                 <br />
                 04177 Leipzig
                 <br />
