@@ -1,10 +1,7 @@
 on:
   push:
-    branches-ignore:
-      - "live"
-  pull_request:
 
-name: Build Gatsby.
+name: Build Gatsby and deploy to the gh-pages branch.
 
 jobs:
   build_gatsby:
@@ -14,10 +11,23 @@ jobs:
       GATSBY_TELEMETRY_DISABLED: 1
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
       - name: npm install
         run: npm ci
 
       - name: gatsby build
         run: npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.4.1
+        if: github.ref == 'refs/heads/live'
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
+          CLEAN: true
