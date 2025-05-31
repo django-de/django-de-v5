@@ -102,7 +102,7 @@ class Layout extends React.Component {
 
             <div className="contact">
               <p>
-                Deutscher Django-Verein e. V.
+                Deutscher Django-Verein e. V. i.L.
                 <br />
                 Engertstr. 18
                 <br />
