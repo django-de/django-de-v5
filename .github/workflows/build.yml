@@ -1,27 +1,15 @@
 on:
   push:
 
-name: Build Gatsby and deploy to the gh-pages branch.
+name: Deploy to the gh-pages branch.
 
 jobs:
   build_gatsby:
     name: build
     runs-on: ubuntu-latest
-    env:
-      GATSBY_TELEMETRY_DISABLED: 1
 
     steps:
       - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-
-      - name: npm install
-        run: npm ci
-
-      - name: gatsby build
-        run: npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
